@@ -29,7 +29,7 @@ const router = express.Router()
 
 // Index
 // /scary-movies
-router.get('/scary-movies', requireToken, (req, res, next) => {
+router.get('/scary-movies', (req, res, next) => {
     ScaryMovie.find()
         .then(scaryMovies => {
             return scaryMovies.map(scaryMovie => scaryMovie)
