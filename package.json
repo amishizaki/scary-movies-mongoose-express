@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node ./app/models/seed.js",
-    "build": "react-scripts build"
+    "seed": "node ./app/models/seed.js"
   },
   "author": "Alina Ishizaki",
   "license": "ISC",
