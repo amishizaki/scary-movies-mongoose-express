@@ -1,6 +1,6 @@
-# fly.toml file generated for scary-movies on 2022-11-04T14:14:35-04:00
+# fly.toml file generated for scary-movies-api on 2022-11-06T13:47:10-05:00
 
-app = "scary-movies"
+app = "scary-movies-api"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -10,6 +10,8 @@ processes = []
 
 [env]
   PORT = "8080"
+  DEPLOYED_URI= "mongodb+srv://alina:simplePassword2022@cluster0.lumocnz.mongodb.net/scary-movies-api?retryWrites=true&w=majority"
+  CLIENT_ORIGIN = "https://scary-movies.netlify.app"
 
 [experimental]
   allowed_public_ports = []
