@@ -10,7 +10,7 @@ processes = []
 
 [env]
   PORT = "8080"
-  DEPLOYED_URI= "mongodb+srv://alina:simplePassword2022@cluster0.lumocnz.mongodb.net/scary-movies-api?retryWrites=true&w=majority"
+  MONGODB_URI= "mongodb+srv://alina:simplePassword2022@cluster0.lumocnz.mongodb.net/scary-movies-api?retryWrites=true&w=majority"
   CLIENT_ORIGIN = "https://scary-movies.netlify.app"
 
 [experimental]
