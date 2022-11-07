@@ -19,7 +19,7 @@ const startScaryMovies = [
     {title: 'The Babadook', director: 'Jennifer Kent', year: '2014' }
 ]
 
-mongoose.connect(db, {
+mongoose.connect(currentDb, {
     useNewUrlParser: true
 })
     .then(() => {
